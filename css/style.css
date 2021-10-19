@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins',sans-serif;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #51ceaf;
+}
+
+/* messages */
+
+.error_message{
+   color: red;
+   font-weight: 600;
+   position: absolute;
+   top: 25px;
+   font-size: 1.25rem;
+}
+
+.download-thumbnail-container{
+   min-height: 300px;
+   width: 425px;
+   border-radius: 5px;
+   background-color: white;
+   box-shadow: 2px 2px 5px 0px #535353 ;
+}
+
+.download-thumbnail-container h1{
+   color: #D35B2E;
+   text-align: center;
+   margin: 25px 0;
+}
+
+.field-download-thumbnail{
+   max-width: 95%;
+   margin: 0 auto;
+}
+
+.field-download-thumbnail>*{
+   margin: 30px 15px;
+}
+
+.paste-url-container p{
+   margin: 5px 0;
+}
+
+.input-url{
+   position: relative;
+   max-width: 100%;
+}
+
+.input-url>input[type=text]{
+   position: relative;
+   height: 35px;
+   width: 100%;
+   padding: 5px 10px;
+   border-radius: 5px;
+   box-shadow: 0px 1px 0px 0px #b9b9b9 ;
+   font-size: 1rem;
+   outline: none;
+   border: 1px solid #000000;
+   background-color: #ffffff;
+   color: #7A7A7A;
+}
+
+.thumbnail-preview{
+   position: relative;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   border: 2px dashed #D35B2E;
+   height: 200px;
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.thumbnail-preview>*{
+   margin: 15px 0;
+}
+
+.thumbnail-preview>i{
+   font-size: 60px;
+   color: #D35B2E;
+}
+
+.thumbnail-preview>p{
+   text-align: center;
+   color:#D35B2E;
+}
+
+
+
+.btn-container{
+   height: 35px;
+   max-width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.btn-download-thumbnail{
+   height: 100%;
+   width: 100%;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   background-color: #D35B2E;
+   color: white;
+   cursor: pointer;
+}
+
+.invalid-url{
+   background-color: #f52020;
+   color: white;
+   padding: 2.5px 5px;
+}
+
+.valid-url{
+   background-color: #0af13c;
+   color: white;
+   padding: 2.5px 5px;
+}
+
+/* Media queries */
+
+@media screen and (max-width:500px) {
+
+   .download-thumbnail-container{
+      width: 90vw;
+   }
+   
+}
+
+@media screen and (max-width:400px) {
+
+   .download-thumbnail-container{
+      width: 95vw;
+   }
+
+   .thumbnail-preview>p{
+      font-size: 0.8rem;
+   }
+   
+}
