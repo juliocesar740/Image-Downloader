@@ -26,8 +26,8 @@ handlePost();
             </div>
          </div>
          <div class="thumbnail-preview">
-            <i class="fas fa-cloud-download-alt"></i>
-            <p>Paste image address to see preview</p>
+            <i class="fas fa-cloud-download-alt" style="font-size:60px;color:#D35B2E;"></i>
+            <p style="font-size:clamp(1rem,1.5rem,4vw);text-align:center;color:#D35B2E;">Paste image address to see preview</p>
          </div>
          <div class="btn-container">
             <button type="submit" class="btn-download-thumbnail">Download Image</button>

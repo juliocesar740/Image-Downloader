@@ -112,16 +112,6 @@ body{
    margin: 15px 0;
 }
 
-.thumbnail-preview>i{
-   font-size: 60px;
-   color: #D35B2E;
-}
-
-.thumbnail-preview>p{
-   text-align: center;
-   color:#D35B2E;
-}
-
 .invalid-url{
    background-color: #f52020;
    color: white;
