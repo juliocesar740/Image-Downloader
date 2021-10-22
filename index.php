@@ -26,14 +26,14 @@ handlePost();
             </div>
          </div>
          <div class="thumbnail-preview">
-            <i class="fas fa-cloud-download-alt"></i>
-            <p>Paste image address to see preview</p>
+            <i class="fas fa-cloud-download-alt" id="icon-thumbnail"></i>
+            <p id="message-thumbnail">Paste image address to see preview</p>
          </div>
          <div class="btn-container">
             <button type="submit" class="btn-download-thumbnail">Download Image</button>
          </div>
       </div>
    </form>
-   <script src="./js/app.js"></script>
+   <script src="./js/app.js" type="module"></script>
 </body>
 </html>
