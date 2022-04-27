@@ -30,7 +30,7 @@ handlePost();
             <p id="message-thumbnail" style="font-size:clamp(1rem,1.5rem,4vw);text-align:center;color:#D35B2E;">Paste image address to see preview</p>
          </div>
          <div class="btn-container">
-            <button type="submit" class="btn-download-thumbnail">Download Image</button>
+            <button type="submit" class="btn-download-thumbnail">Download</button>
          </div>
       </div>
    </form>
