@@ -1,3 +1,9 @@
-Application for downloading images through its address.
+# Image-downloader
 
-php,javascript,css,html.
+Application for downloading images by its address with php.
+
+## Start server
+
+```sh
+php -S localhost:8080
+```
